@@ -11,13 +11,13 @@
 <body>
 	<header id="top">
 		<nav id="navigation">
-			<a href="index.html">Strona główna</a>
-			<a href="nauka-html.html">Nauka HTML</a>
-			<a href="nauka-css.html">Nauka CSS</a>
+			<a class="link" href="index.html">Strona główna</a>
+			<a class="link" href="nauka-html.html">Nauka HTML</a>
+			<a class="link" href="nauka-css.html">Nauka CSS</a>
 		</nav>
 	</header>
 	<main>
-		<header>
+		<header class="main-header">
 			<img src="html5.png" alt="logo html 5" />
 			<h1><em>Nauka HTML</em></h1>
 		</header>
@@ -25,48 +25,53 @@
 			<h2><strong>Znaczniki HTML</strong></h2>
 			<article>
 				<h3>header</h3>
-				<p>Header służy do zawarcia w nim elementów lub treści wprowadzającej. Jeśli jest to główny globalny header
+				<p class="paragraph">Header służy do zawarcia w nim elementów lub treści wprowadzającej. Jeśli jest to główny
+					globalny header
 					strony, znajduje się z reguły na górze strony i może zawierać logo, nazwę firmy, nawigację i wyszukiwarkę.
 				</p>
-				<p>Jeśli tag ten stosowany jest w sekcji, to służy tylko do zawarcia nagłówka otaczającej sekcji.</p>
+				<p class="paragraph">Jeśli tag ten stosowany jest w sekcji, to służy tylko do zawarcia nagłówka otaczającej
+					sekcji.</p>
 			</article>
 			<article>
 				<h3>main</h3>
-				<p>main jest używany do głownej treści documentu wewnątrz body.</p>
-				<p>Dokument nie powinien mieć więcej niż jeden
+				<p class="paragraph">main jest używany do głownej treści documentu wewnątrz body.</p>
+				<p class="paragraph">Dokument nie powinien mieć więcej niż jeden
 					element main, a zawartość tego elementu powinna być unikalna dla dokumentu.</p>
-				<p>Coś co się powtarza w serii
+				<p class="paragraph">Coś co się powtarza w serii
 					dokumentów, lub w sekcjach jednego dokumentu, jak np. nawigacja, loga, formularze wyszukiwania
 					powinny być
 					poza elementem main.</p>
 			</article>
 			<article>
 				<h3>article</h3>
-				<p>Ten jest trochę cięzki do zrozumienia, bo wiele rzeczy może być artykułem np. artykuł na blogu,
+				<p class="paragraph">Ten jest trochę cięzki do zrozumienia, bo wiele rzeczy może być artykułem np. artykuł na
+					blogu,
 					komentarz
 					na forum, a nawet interaktywny widget.</p>
-				<p>Article powinien zawsze mieć header.</p>
-				<p>Można mieć article wewnątrz article, ale zawartość powinna dotyczyć article rodzica.</p>
+				<p class="paragraph">Article powinien zawsze mieć header.</p>
+				<p class="paragraph">Można mieć article wewnątrz article, ale zawartość powinna dotyczyć article rodzica.</p>
 			</article>
 			<article>
 				<h3>p</h3>
-				<p>p głownie z tego co rozumiem jest do tesktu, zdjęć, tekstu do wpisania w pustym miejscu
+				<p class="paragraph">p głownie z tego co rozumiem jest do tesktu, zdjęć, tekstu do wpisania w pustym miejscu
 					formularza itp.</p>
 			</article>
 			<article>
 				<h3>strong</h3>
-				<p>Ten tag jest używany do podkreślenia wysokiej istotności i poważności frazy w nim zawartej.</p>
+				<p class="paragraph">Ten tag jest używany do podkreślenia wysokiej istotności i poważności frazy w nim zawartej.
+				</p>
 			</article>
 			<article>
 				<h3>em</h3>
-				<p>Ten znacznik podkreśla, że tekst może mieć inne znaczenie jak np. ironia.</p>
+				<p class="paragraph">Ten znacznik podkreśla, że tekst może mieć inne znaczenie jak np. ironia.</p>
 			</article>
 		</section>
 	</main>
 	<footer>
-		<p>Strona stworzona podczas szkolenia <a href="https://cotenfrontend.pl" target="_blank">WTF: Co ten frontend!</a>
+		<p>Strona stworzona podczas szkolenia <a class="link" href="https://cotenfrontend.pl" target="_blank">WTF: Co ten
+				frontend!</a>
 		</p>
-		<p><a href="#top">Wróć na górę strony</a></p>
+		<p><a class="link" href="#top">Wróć na górę strony</a></p>
 	</footer>
 </body>
 

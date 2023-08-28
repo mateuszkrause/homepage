@@ -11,13 +11,13 @@
 <body>
   <header id="top">
     <nav id="navigation">
-      <a href="index.html">Strona główna</a>
-      <a href="nauka-html.html">Nauka HTML</a>
-      <a href="nauka-css.html">Nauka CSS</a>
+      <a class="link" href="index.html">Strona główna</a>
+      <a class="link" href="nauka-html.html">Nauka HTML</a>
+      <a class="link" href="nauka-css.html">Nauka CSS</a>
     </nav>
   </header>
   <main>
-    <header>
+    <header class="main-header">
       <img src="css3.png" alt="logo css 3" />
       <h1><em>Nauka CSS</em></h1>
     </header>
@@ -25,19 +25,22 @@
       <h2><strong>Reguły CSS</strong></h2>
       <article>
         <h3>Selektory</h3>
-        <p>Możemy stylować HTML po elemencie (&ltelement&gt), identyfikatorze (#id )albo klasie (.class).</p>
+        <p class="paragraph">Możemy stylować HTML po elemencie (&ltelement&gt), identyfikatorze (#id )albo klasie
+          (.class).</p>
       </article>
       <article>
         <h3>Specificzność</h3>
-        <p>Dokument jest stylowany używając selektorów, które podlegają tej kolejnośći: selektor z własnością
+        <p class="paragraph">Dokument jest stylowany używając selektorów, które podlegają tej kolejnośći: selektor z
+          własnością
           !important, style "inline", selektor id (#name), selektor class (.name) i na koniec element HTML.</p>
       </article>
     </section>
   </main>
   <footer>
-    <p>Strona stworzona podczas szkolenia <a href="https://cotenfrontend.pl" target="_blank">WTF: Co ten frontend!</a>
+    <p>Strona stworzona podczas szkolenia <a class="link" href="https://cotenfrontend.pl" target="_blank">WTF: Co ten
+        frontend!</a>
     </p>
-    <p><a href="#top">Wróć na górę strony</a></p>
+    <p><a class="link" href="#top">Wróć na górę strony</a></p>
   </footer>
 </body>
 

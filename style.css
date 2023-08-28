@@ -2,6 +2,10 @@ body {
 	background: #fefefe;
 }
 
+.main-header {
+	background: rgb(160, 160, 198);
+}
+
 h1 {
 	color: rgb(60, 60, 150);
 }
@@ -16,4 +20,12 @@ h2 {
 
 .blue {
 	color: blue;
+}
+
+.paragraph {
+	color: rgb(113, 97, 47);
+}
+
+.link {
+	color: inherit;
 }
