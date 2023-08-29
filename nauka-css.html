@@ -34,6 +34,39 @@
           własnością
           !important, style "inline", selektor id (#name), selektor class (.name) i na koniec element HTML.</p>
       </article>
+      <article>
+        <h3>Własność display</h3>
+        <p>Może mieć wartość block, dzięki której element zajmie całą szerokość strony i kolejne elementy będą
+          przerzucane do kolejnej lini. Można ją stosować do wszystkich elementów.</p>
+        <p>Kolejna wartość to inline. Ma taką szerokość jaką nadaje treść wewnątrz elementu.</p>
+        <p>Inline-block to kolejna. </p>
+      </article>
+      <article>
+        <h3>Własności width i height</h3>
+        <p>Jeśli mam element o wartości block, o określonej wielkości np. 300px/300px, to zajmie on szerokość 300px a
+          reszta szerokości ekranu będzie pusta ale zarezerwowana dla tego elementu.</p>
+        <p>Na wartośći inline to określona wielkość jest nie uwzlgędniana i zawartość elementów wyświetlana jest w lini.
+        </p>
+        <p>Inline block wyświetla elementy w lini ale umożliwia nadanie elementowi wielkośći.</p>
+      </article>
+      <article>
+        <h3>Własności max/min-width i max/min-height</h3>
+        <p>Przy nadaniu elementowi max-width np. 300px, w momencie kiedy zmniejsze okno poniżej 300px, nie utworzy się
+          scroll na dole strony, a zawartość zacznie sie rozszerzać do niższych lini.</p>
+        <p>Przy max-height element nie urośnie do niższych lini, będzie miał sztywną wysokość, ale treść wyjedzie
+          poniżej i będzie wyświetlona.</p>
+        <p>Własności min działają odwrotnie.</p>
+      </article>
+      <article>
+        <h3>Własność overflow</h3>
+        <p>Definiuje jak element ma się zachować kiedy zawartość wystaje poza element.</p>
+        <p>Wartość hidden ucina wyświetlaną treść do nadanej wielkości elementu.</p>
+        <p>Wartość auto utworzy scrolla wewnątrz elementu.</p>
+        <p>Wartość scroll daje na sztywno scrolla.</p>
+        <p>Wartość clip stosowany jest do bardziej zaawansowanych rzeczy.</p>
+        <p>Jeśli jest element w kolejnej lini pod elementem o nadanej wysokości bez overflow hidden, to wyświetli się on
+          dokładnie poniżej nadanej wysokości i zmiesza się z treścią wystającą poniżej pierwszego elementu.</p>
+      </article>
     </section>
   </main>
   <footer>
