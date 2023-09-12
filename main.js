@@ -9,3 +9,6 @@ let changeable = "let";
 
 console.log(`${constant} to zmienne mające stałe połączenie z jedną wartością.`);
 console.log(`${changeable} to zmienne, które mogą mieć zmienioną wartość, na którą wskazują, ale definiowane są tylko raz.`);
+
+const heading = document.querySelector('.page-header__heading--js');
+console.log(heading);
