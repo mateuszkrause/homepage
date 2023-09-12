@@ -12,3 +12,6 @@ console.log(`${changeable} to zmienne, które mogą mieć zmienioną wartość, 
 
 const heading = document.querySelector('.page-header__heading--js');
 console.log(heading);
+console.log(heading.style);
+heading.innerHTML = 'Hej!';
+heading.style.color = 'red';
