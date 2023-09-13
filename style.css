@@ -16,9 +16,19 @@ body {
 	background: rgb(160, 160, 198);
 }
 
-h1 {
+.page-header__heading {
 	color: rgb(60, 60, 150);
 }
+
+.article {}
+
+.article__heading {}
+
+.article__pararaph {
+	color: rgb(113, 97, 47);
+}
+
+
 
 h2 {
 	color: #1460AA;
@@ -35,10 +45,6 @@ h2 {
 
 .blue {
 	color: blue;
-}
-
-.paragraph {
-	color: rgb(113, 97, 47);
 }
 
 .link {
