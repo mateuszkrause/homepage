@@ -20,11 +20,11 @@ body {
 	color: rgb(60, 60, 150);
 }
 
-.article {}
+.section {}
 
-.article__heading {}
+.section__heading {}
 
-.article__pararaph {
+.section__pararaph {
 	color: rgb(113, 97, 47);
 }
 
