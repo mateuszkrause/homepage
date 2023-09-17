@@ -9,8 +9,8 @@
 	<link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-	<header id="top">
+<body id="top">
+	<header class="header">
 		<nav class="navigation">
 			<a class="navigation__link" href="index.html">Strona główna</a>
 			<a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
@@ -18,9 +18,9 @@
 		</nav>
 	</header>
 	<main>
-		<header class="main-header">
+		<header class="page-header">
 			<img src="html5.png" alt="logo html 5">
-			<h1><em>Nauka HTML</em></h1>
+			<h1 class="page-header__heading"><em>Nauka HTML</em></h1>
 		</header>
 		<section>
 			<h2><strong>Znaczniki HTML</strong></h2>
@@ -75,11 +75,12 @@
 			</article>
 		</section>
 	</main>
-	<footer>
-		<p>Strona stworzona podczas szkolenia <a class="link" href="https://cotenfrontend.pl" target="_blank">WTF: Co ten
+	<footer class="page-footer">
+		<p class="page-footer__paragraph">Strona stworzona podczas szkolenia <a class="link" href="https://cotenfrontend.pl"
+				target="_blank">WTF: Co ten
 				frontend!</a>
 		</p>
-		<p><a class="link" href="#top">Wróć na górę strony</a></p>
+		<a class="page-footer__go-top" href="#top">Wróć na górę strony</a>
 	</footer>
 </body>
 

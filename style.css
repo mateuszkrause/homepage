@@ -10,43 +10,71 @@ html {
 
 body {
 	background: #fefefe;
+	padding: 0 10px 0 10px;
+}
+
+.article {
+	background: #eeeeee;
+}
+
+.article__heading {
+	color: #1460AA;
+}
+
+.article__paragraph {
+	color: rgb(113, 97, 47);
+}
+
+.header {
+	position: sticky;
+	top: 0;
+}
+
+.navigation {
+	background: #dddddd;
+	padding: 10px;
+}
+
+.navigation__link {
+	color: black;
+	padding-right: 10px;
+}
+
+.link {
+	color: inherit;
+}
+
+.page-footer {
+	background: #eeeeee;
+}
+
+.page-footer__go-top {
+	color: inherit;
+	position: absolute;
+	right: 0;
+}
+
+.page-footer__paragraph {
+	color: black;
+	position: relative;
 }
 
 .page-header {
-	background: rgb(160, 160, 198);
+	background: rgb(200, 200, 255);
 }
 
 .page-header__heading {
 	color: rgb(60, 60, 150);
 }
 
-.section {}
-
-.section__heading {}
-
-.section__pararaph {
-	color: rgb(113, 97, 47);
+.section {
+	background: #eeeeee;
 }
 
-
-
-h2 {
+.section__heading {
 	color: #1460AA;
 }
 
-.navigation {
-	background: #dedede;
-	padding: 16px;
-}
-
-.navigation__link {
-	color: black;
-}
-
-.blue {
-	color: blue;
-}
-
-.link {
-	color: inherit;
+.section__paragraph {
+	color: rgb(113, 97, 47);
 }

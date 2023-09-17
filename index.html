@@ -9,8 +9,8 @@
 	<link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-	<header id="top">
+<body id="top">
+	<header class="header">
 		<nav class="navigation">
 			<a class="navigation__link" href="index.html">Strona główna</a>
 			<a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
@@ -23,37 +23,37 @@
 					frontendu</em></h1>
 		</header>
 		<section class="section">
-			<h2 class="section_heading"><strong>Kim jestem?</strong></h2>
-			<p class="section_paragraph">Jestem ziomem, który chce się nauczyć frontendu i programowania. Myślę o klepaniu
+			<h2 class="section__heading"><strong>Kim jestem?</strong></h2>
+			<p class="section__paragraph">Jestem ziomem, który chce się nauczyć frontendu i programowania. Myślę o klepaniu
 				kodu
 				zawodowo i wydaje
 				mi się
 				to całkiem spoko! Na chwilę obecną zacznę od pisania tej strony i bawieniu się z podstawami frontendu i
 				zobaczę
 				gdzie mnie to poniesie.</p>
-			<p class="section_paragraph">Poczytaj czego się nauczyłem o <a class="link" href="#html">HTML</a>.</p>
-			<p class="section_paragraph">Zobacz czego się dowiedziałem o stylach <a class="link" href="#css">CSS</a>.</p>
+			<p class="section__paragraph">Poczytaj czego się nauczyłem o <a class="link" href="#html">HTML</a>.</p>
+			<p class="section__paragraph">Zobacz czego się dowiedziałem o stylach <a class="link" href="#css">CSS</a>.</p>
 		</section>
-		<section class="article">
-			<h2 class="section_heading"><strong>Moja nauka z WTF: Co ten frontend!</strong></h2>
-			<section class="article">
-				<h3 id="html">HTML</h3>
-				<p class="section_paragraph">Nauka znaczników idzie szybko, chociaż ciężko czasem zrozumieć ich reguły.</p>
-			</section>
-			<section class="article">
-				<h3 id="css">CSS</h3>
-				<p class="section_paragraph">O stylach jeszcze nie wiem co mogę napisać. Na tą chwilę dodałem tylko kolor do
+		<section class="section">
+			<h2 class="section__heading"><strong>Moja nauka z WTF: Co ten frontend!</strong></h2>
+			<article class="article">
+				<h3 class="article__heading" id="html">HTML</h3>
+				<p class="article__paragraph">Nauka znaczników idzie szybko, chociaż ciężko czasem zrozumieć ich reguły.</p>
+			</article>
+			<article class="article">
+				<h3 class="article__heading" id="css">CSS</h3>
+				<p class="article__paragraph">O stylach jeszcze nie wiem co mogę napisać. Na tą chwilę dodałem tylko kolor do
 					tekstu i
 					tła strony.
 					Jedynie, co ciekawsze, to link do pliku css w sekcji head kodu tej strony.</p>
-			</section>
+			</article>
 		</section>
 	</main>
-	<footer>
-		<p>Strona stworzona podczas szkolenia <a class="link" href="https://cotenfrontend.pl" target="_blank">WTF: Co ten
-				frontend!</a>
-		</p>
-		<p><a class="link" href="#top">Wróć na górę strony</a></p>
+	<footer class="page-footer">
+		<p class="page-footer__paragraph">Strona stworzona podczas szkolenia <a class="link" href="https://cotenfrontend.pl"
+				target="_blank">WTF: Co ten
+				frontend!</a></p>
+		<a class="page-footer__go-top" href="#top">Wróć na górę strony</a>
 	</footer>
 	<script defer src="main.js"></script>
 </body>
