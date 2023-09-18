@@ -10,7 +10,6 @@ html {
 
 body {
 	background: #fefefe;
-	padding: 0 10px 0 10px;
 }
 
 .article {
@@ -46,6 +45,7 @@ body {
 
 .page-footer {
 	background: #dddddd;
+	padding: 0 10px 0 10px;
 }
 
 .page-footer__go-top {
@@ -57,15 +57,22 @@ body {
 }
 
 .page-header {
-	background: rgb(200, 200, 255);
+	padding: 0 10px 0 10px;
 }
 
 .page-header__heading {
+	background: rgb(202, 218, 234);
 	color: rgb(60, 60, 150);
+}
+
+.page-header__picture {
+	max-width: 40vw;
+	max-height: 40vh;
 }
 
 .section {
 	background: #eeeeee;
+	padding: 0 10px 0 10px;
 }
 
 .section__heading {
