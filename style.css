@@ -50,13 +50,10 @@ body {
 
 .page-footer__go-top {
 	color: inherit;
-	position: absolute;
-	right: 0;
 }
 
 .page-footer__paragraph {
 	color: black;
-	position: relative;
 }
 
 .page-header {
