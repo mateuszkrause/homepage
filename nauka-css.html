@@ -22,91 +22,111 @@
       <img src="css3.png" alt="logo css 3">
       <h1 class="page-header__heading"><em>Nauka CSS</em></h1>
     </header>
-    <section>
-      <h2><strong>Reguły CSS</strong></h2>
-      <article>
-        <h3>Selektory</h3>
-        <p class="paragraph">Możemy stylować HTML po elemencie (&lt;element&gt;), identyfikatorze (#id )albo klasie
+    <section class="section">
+      <h2 class="section__heading"><strong>Reguły CSS</strong></h2>
+      <article class="article">
+        <h3 class="article__heading">Selektory</h3>
+        <p class="article__paragraph">Możemy stylować HTML po elemencie (&lt;element&gt;), identyfikatorze (#id )albo
+          klasie
           (.class).</p>
       </article>
-      <article>
-        <h3>Specificzność</h3>
-        <p class="paragraph">Dokument jest stylowany używając selektorów, które podlegają tej kolejnośći: selektor z
+      <article class="article">
+        <h3 class="article__heading">Specificzność</h3>
+        <p class="article__paragraph">Dokument jest stylowany używając selektorów, które podlegają tej kolejnośći:
+          selektor z
           własnością
           !important, style "inline", selektor id (#name), selektor class (.name) i na koniec element HTML.</p>
       </article>
-      <article>
-        <h3>Własność display</h3>
-        <p>Może mieć wartość block, dzięki której element zajmie całą szerokość strony i kolejne elementy będą
+      <article class="article">
+        <h3 class="article__heading">Własność display</h3>
+        <p class="article__paragraph">Może mieć wartość block, dzięki której element zajmie całą szerokość strony i
+          kolejne elementy będą
           przerzucane do kolejnej lini. Można ją stosować do wszystkich elementów.</p>
-        <p>Kolejna wartość to inline. Ma taką szerokość jaką nadaje treść wewnątrz elementu.</p>
-        <p>Inline-block to kolejna. </p>
-      </article>
-      <article>
-        <h3>Własności width i height</h3>
-        <p>Jeśli mam element o wartości block, o określonej wielkości np. 300px/300px, to zajmie on szerokość 300px a
-          reszta szerokości ekranu będzie pusta ale zarezerwowana dla tego elementu.</p>
-        <p>Na wartośći inline to określona wielkość jest nie uwzlgędniana i zawartość elementów wyświetlana jest w lini.
+        <p class="article__paragraph">Kolejna wartość to inline. Ma taką szerokość jaką nadaje treść wewnątrz elementu.
         </p>
-        <p>Inline block wyświetla elementy w lini ale umożliwia nadanie elementowi wielkośći.</p>
+        <p class="article__paragraph">Inline-block to kolejna. </p>
       </article>
-      <article>
-        <h3>Własności max/min-width i max/min-height</h3>
-        <p>Przy nadaniu elementowi max-width np. 300px, w momencie kiedy zmniejsze okno poniżej 300px, nie utworzy się
+      <article class="article">
+        <h3 class="article__heading">Własności width i height</h3>
+        <p class="article__paragraph">Jeśli mam element o wartości block, o określonej wielkości np. 300px/300px, to
+          zajmie on szerokość 300px a
+          reszta szerokości ekranu będzie pusta ale zarezerwowana dla tego elementu.</p>
+        <p class="article__paragraph">Na wartośći inline to określona wielkość jest nie uwzlgędniana i zawartość
+          elementów wyświetlana jest w lini.
+        </p>
+        <p class="article__paragraph">Inline block wyświetla elementy w lini ale umożliwia nadanie elementowi wielkośći.
+        </p>
+      </article>
+      <article class="article">
+        <h3 class="article__heading">Własności max/min-width i max/min-height</h3>
+        <p class="article__paragraph">Przy nadaniu elementowi max-width np. 300px, w momencie kiedy zmniejsze okno
+          poniżej 300px, nie utworzy się
           scroll na dole strony, a zawartość zacznie sie rozszerzać do niższych lini.</p>
-        <p>Przy max-height element nie urośnie do niższych lini, będzie miał sztywną wysokość, ale treść wyjedzie
+        <p class="article__paragraph">Przy max-height element nie urośnie do niższych lini, będzie miał sztywną
+          wysokość, ale treść wyjedzie
           poniżej i będzie wyświetlona.</p>
-        <p>Własności min działają odwrotnie.</p>
+        <p class="article__paragraph">Własności min działają odwrotnie.</p>
       </article>
-      <article>
-        <h3>Własność overflow</h3>
-        <p>Definiuje jak element ma się zachować kiedy zawartość wystaje poza element.</p>
-        <p>Wartość hidden ucina wyświetlaną treść do nadanej wielkości elementu.</p>
-        <p>Wartość auto utworzy scrolla wewnątrz elementu.</p>
-        <p>Wartość scroll daje na sztywno scrolla.</p>
-        <p>Wartość clip stosowany jest do bardziej zaawansowanych rzeczy.</p>
-        <p>Jeśli jest element w kolejnej lini pod elementem o nadanej wysokości bez overflow hidden, to wyświetli się on
+      <article class="article">
+        <h3 class="article__heading">Własność overflow</h3>
+        <p class="article__paragraph">Definiuje jak element ma się zachować kiedy zawartość wystaje poza element.</p>
+        <p class="article__paragraph">Wartość hidden ucina wyświetlaną treść do nadanej wielkości elementu.</p>
+        <p class="article__paragraph">Wartość auto utworzy scrolla wewnątrz elementu.</p>
+        <p class="article__paragraph">Wartość scroll daje na sztywno scrolla.</p>
+        <p class="article__paragraph">Wartość clip stosowany jest do bardziej zaawansowanych rzeczy.</p>
+        <p class="article__paragraph">Jeśli jest element w kolejnej lini pod elementem o nadanej wysokości bez overflow
+          hidden, to wyświetli się on
           dokładnie poniżej nadanej wysokości i zmiesza się z treścią wystającą poniżej pierwszego elementu.</p>
       </article>
-      <article>
-        <h3>Jednostki</h3>
-        <p>0 to zero</p>
-        <p>px - piksele to jeden punkt na ekranie. Np. 200px.</p>
-        <p>% - procenty. Np. 50% szerokości to da 50%. Ale z wysokością nie zawsze zadziała więc lepiej nie tykać.
+      <article class="article">
+        <h3 class="article__heading">Jednostki</h3>
+        <p class="article__paragraph">0 to zero.</p>
+        <p class="article__paragraph">px - piksele to jeden punkt na ekranie. Np. 200px.</p>
+        <p class="article__paragraph">% - procenty. Np. 50% szerokości to da 50%. Ale z wysokością nie zawsze zadziała
+          więc lepiej nie tykać.
           Procenty odnoszą się do wielkości elementu rodzica.
         </p>
-        <p>vw - viewport width. Okno w którym wyświetla się dokument.</p>
-        <p>vh - viewport height. Lepsze niż procenty, bo bierze po prostu wysokość okna na ekranie. Np. 33vh to 33%
+        <p class="article__paragraph">vw - viewport width. Okno w którym wyświetla się dokument.</p>
+        <p class="article__paragraph">vh - viewport height. Lepsze niż procenty, bo bierze po prostu wysokość okna na
+          ekranie. Np. 33vh to 33%
           wysokości okna. </p>
       </article>
-      <article>
-        <h3>Box model</h3>
-        <p>Elementy mają padding (margines wewnętrzny), border (granica paddingu), i margin (margines oddzielający
-          border elementu od innych elementów)</p>
-        <p>padding: 3px 3px 3px 3px; nada padding jak w zegarze, góra, prawo, dół, lewo.</p>
-        <p>padding: 3px 3px; nada w parach gora-dół i prawo-lewo.</p>\
-        <p>border ma width, style i color. Można też np. zrobić tylko prawy albo górny itd.</p>
-        <p>border-radius zaokrągla.</p>
-        <p>Margines margin działa jak padding.</p>
-        <p>Wartość auto np margin: 100px auto; wyśrodkuje element.</p>
+      <article class="article">
+        <h3 class="article__heading">Box model</h3>
+        <p class="article__paragraph">Elementy mają padding (margines wewnętrzny), border (granica paddingu), i margin
+          (margines oddzielający
+          border elementu od innych elementów).</p>
+        <p class="article__paragraph">padding: 3px 3px 3px 3px; nada padding jak w zegarze, góra, prawo, dół, lewo.</p>
+        <p class="article__paragraph">padding: 3px 3px; nada w parach gora-dół i prawo-lewo.</p>
+        <p class="article__paragraph">border ma width, style i color. Można też np. zrobić tylko prawy albo górny itd.
+        </p>
+        <p class="article__paragraph">border-radius zaokrągla.</p>
+        <p class="article__paragraph">Margines margin działa jak padding.</p>
+        <p class="article__paragraph">Wartość auto np margin: 100px auto; wyśrodkuje element.</p>
       </article>
-      <article>
-        <h3>Box sizing</h3>
-        <p>Są dwie opcje: content-box i border-box.</p>
-        <p>200/200 kwadrat z wartością content-box będzie trzymał wielkość pudełka na treść, a z wartością border-box
+      <article class="article">
+        <h3 class="article__heading">Box sizing</h3>
+        <p class="article__paragraph">Są dwie opcje: content-box i border-box.</p>
+        <p class="article__paragraph">200/200 kwadrat z wartością content-box będzie trzymał wielkość pudełka na treść,
+          a z wartością border-box
           będzie trzymał ramkę pozwalając wszystkiemu wewnątrz się zmieniać.</p>
       </article>
-      <article>
-        <h3>Position</h3>
-        <p>Własność position może być static, absolute, relative, fixed, sticky albo float, ale tego ostatniego raczej
+      <article class="article">
+        <h3 class="article__heading">Position</h3>
+        <p class="article__paragraph">Własność position może być static, absolute, relative, fixed, sticky albo float,
+          ale tego ostatniego raczej
           nie będę chyba używać.</p>
-        <p>Static jest po prostu statyczny i elementy są tam gdzie są nadane i gdzie przeglądarka je umieszcza.</p>
-        <p>Relative pozwala stworzyć przestrzeń, względem której możemy pozycjonować inne elementy.</p>
-        <p>Absolute jest pozycją względem elementu relative od jego bordera. Można pozycjonować za pomocą wartości top,
+        <p class="article__paragraph">Static jest po prostu statyczny i elementy są tam gdzie są nadane i gdzie
+          przeglądarka je umieszcza.</p>
+        <p class="article__paragraph">Relative pozwala stworzyć przestrzeń, względem której możemy pozycjonować inne
+          elementy.</p>
+        <p class="article__paragraph">Absolute jest pozycją względem elementu relative od jego bordera. Można
+          pozycjonować za pomocą wartości top,
           right, bottom, left.</p>
-        <p>Z-index odpowiada za kolejność warstw.</p>
-        <p>Fixed wywali element z jakichkolwiek rodziców i przykleja go do viewportu.</p>
-        <p>Sticky jest bardzo ważny. Przykleja element do nadanej wartości wewnątrz rodzica. Sticky nie zadziała jak
+        <p class="article__paragraph">Z-index odpowiada za kolejność warstw.</p>
+        <p class="article__paragraph">Fixed wywali element z jakichkolwiek rodziców i przykleja go do viewportu.</p>
+        <p class="article__paragraph">Sticky jest bardzo ważny. Przykleja element do nadanej wartości wewnątrz rodzica.
+          Sticky nie zadziała jak
           jest overflow w rodzicu i też
           musi mieć jakąś wartość np. top.</p>
       </article>

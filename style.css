@@ -14,7 +14,7 @@ body {
 }
 
 .article {
-	background: #eeeeee;
+	background: inherit;
 }
 
 .article__heading {
@@ -45,7 +45,7 @@ body {
 }
 
 .page-footer {
-	background: #eeeeee;
+	background: #dddddd;
 }
 
 .page-footer__go-top {
