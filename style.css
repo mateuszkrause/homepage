@@ -31,7 +31,10 @@ body {
 
 .navigation {
 	background: #dddddd;
+	margin: 0 auto;
+	min-width: 318px;
 	padding: 10px;
+	text-align: center;
 }
 
 .navigation__link {
@@ -46,6 +49,7 @@ body {
 .page-footer {
 	background: #dddddd;
 	padding: 0 10px 0 10px;
+	text-align: center;
 }
 
 .page-footer__go-top {
@@ -57,7 +61,8 @@ body {
 }
 
 .page-header {
-	padding: 0 10px 0 10px;
+	padding: 0 20px 0 20px;
+	text-align: center;
 }
 
 .page-header__heading {
@@ -66,13 +71,17 @@ body {
 }
 
 .page-header__picture {
+	display: block;
+	margin: 0 auto;
 	max-width: 40vw;
 	max-height: 40vh;
 }
 
 .section {
 	background: #eeeeee;
+	margin: 0 auto;
 	padding: 0 10px 0 10px;
+	width: 70vw;
 }
 
 .section__heading {
