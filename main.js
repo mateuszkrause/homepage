@@ -15,3 +15,7 @@ console.log(heading);
 console.log(heading.style);
 heading.innerHTML = 'Hej!';
 heading.style.color = 'red';
+
+const paragraph = document.querySelector('.section__paragraph--js');
+paragraph.innerHTML = 'PS. Ten krótki, zielony tekst, to taki mały dodatek z JS do pustego elementu "p" ;)';
+paragraph.style.color = 'green';
