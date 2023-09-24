@@ -58,6 +58,7 @@ main {
 
 .page-footer__top-link {
 	background: #dddddd;
+	border-radius: 8px;
 	color: inherit;
 	bottom: 16px;
 	right: 16px;
