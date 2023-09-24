@@ -10,6 +10,7 @@ html {
 
 body {
 	background: #fefefe;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -73,6 +74,9 @@ main {
 .page-header__heading {
 	background: rgb(202, 218, 234);
 	color: rgb(60, 60, 150);
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: 2px;
 	padding: 0 16px;
 }
 
@@ -85,6 +89,7 @@ main {
 
 .section {
 	background: #eeeeee;
+	line-height: 1.5;
 	padding: 0 16px;
 }
 
@@ -94,4 +99,8 @@ main {
 
 .section__paragraph {
 	color: rgb(113, 97, 47);
+}
+
+.special {
+	background: rgb(210, 197, 218);
 }
