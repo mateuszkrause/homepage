@@ -24,21 +24,37 @@
     </header>
     <section class="section">
       <h2 class="section__heading"><strong>Reguły CSS</strong></h2>
+      <section class="section">
+        <h3 class="section__heading">Lista:</h3>
+        <ul class="unordered-list">
+          <li class="unordered-list__list-item"><a class="link" href="#selectors">Selektory</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#specifity">Specificzność</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#display">Własność display</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#width/height">Własności width i height</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#max/min-width/height">Własności max/min-width i
+              max/min-height</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#overflow">Własność overflow</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#units">Jednostki</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#box-model">Box model</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#box-sizing">Box sizing</a></li>
+          <li class="unordered-list__list-item"><a class="link" href="#position">Position</a></li>
+        </ul>
+      </section>
       <article class="article">
-        <h3 class="article__heading">Selektory</h3>
+        <h3 class="article__heading" id="selectors">Selektory</h3>
         <p class="article__paragraph">Możemy stylować HTML po elemencie (&lt;element&gt;), identyfikatorze (#id )albo
           klasie
           (.class).</p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Specificzność</h3>
+        <h3 class="article__heading" id="specifity">Specificzność</h3>
         <p class="article__paragraph">Dokument jest stylowany używając selektorów, które podlegają tej kolejnośći:
           selektor z
           własnością
           !important, style "inline", selektor id (#name), selektor class (.name) i na koniec element HTML.</p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Własność display</h3>
+        <h3 class="article__heading" id="display">Własność display</h3>
         <p class="article__paragraph">Może mieć wartość block, dzięki której element zajmie całą szerokość strony i
           kolejne elementy będą
           przerzucane do kolejnej lini. Można ją stosować do wszystkich elementów.</p>
@@ -47,7 +63,7 @@
         <p class="article__paragraph">Inline-block to kolejna. </p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Własności width i height</h3>
+        <h3 class="article__heading" id="width/height">Własności width i height</h3>
         <p class="article__paragraph">Jeśli mam element o wartości block, o określonej wielkości np. 300px/300px, to
           zajmie on szerokość 300px a
           reszta szerokości ekranu będzie pusta ale zarezerwowana dla tego elementu.</p>
@@ -58,7 +74,7 @@
         </p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Własności max/min-width i max/min-height</h3>
+        <h3 class="article__heading" id="#max/min-width/height">Własności max/min-width i max/min-height</h3>
         <p class="article__paragraph">Przy nadaniu elementowi max-width np. 300px, w momencie kiedy zmniejsze okno
           poniżej 300px, nie utworzy się
           scroll na dole strony, a zawartość zacznie sie rozszerzać do niższych lini.</p>
@@ -68,7 +84,7 @@
         <p class="article__paragraph">Własności min działają odwrotnie.</p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Własność overflow</h3>
+        <h3 class="article__heading" id="overflow">Własność overflow</h3>
         <p class="article__paragraph">Definiuje jak element ma się zachować kiedy zawartość wystaje poza element.</p>
         <p class="article__paragraph">Wartość hidden ucina wyświetlaną treść do nadanej wielkości elementu.</p>
         <p class="article__paragraph">Wartość auto utworzy scrolla wewnątrz elementu.</p>
@@ -79,7 +95,7 @@
           dokładnie poniżej nadanej wysokości i zmiesza się z treścią wystającą poniżej pierwszego elementu.</p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Jednostki</h3>
+        <h3 class="article__heading" id="units">Jednostki</h3>
         <p class="article__paragraph">0 to zero.</p>
         <p class="article__paragraph">px - piksele to jeden punkt na ekranie. Np. 200px.</p>
         <p class="article__paragraph">% - procenty. Np. 50% szerokości to da 50%. Ale z wysokością nie zawsze zadziała
@@ -92,7 +108,7 @@
           wysokości okna. </p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Box model</h3>
+        <h3 class="article__heading" id="box-model">Box model</h3>
         <p class="article__paragraph">Elementy mają padding (margines wewnętrzny), border (granica paddingu), i margin
           (margines oddzielający
           border elementu od innych elementów).</p>
@@ -105,14 +121,14 @@
         <p class="article__paragraph">Wartość auto np margin: 100px auto; wyśrodkuje element.</p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Box sizing</h3>
+        <h3 class="article__heading" id="box-sizing">Box sizing</h3>
         <p class="article__paragraph">Są dwie opcje: content-box i border-box.</p>
         <p class="article__paragraph">200/200 kwadrat z wartością content-box będzie trzymał wielkość pudełka na treść,
           a z wartością border-box
           będzie trzymał ramkę pozwalając wszystkiemu wewnątrz się zmieniać.</p>
       </article>
       <article class="article">
-        <h3 class="article__heading">Position</h3>
+        <h3 class="article__heading" id="position">Position</h3>
         <p class="article__paragraph">Własność position może być static, absolute, relative, fixed, sticky albo float,
           ale tego ostatniego raczej
           nie będę chyba używać.</p>
