@@ -74,7 +74,7 @@ main {
 .page-header__heading {
 	background: rgb(202, 218, 234);
 	color: rgb(60, 60, 150);
-	font-size: 32px;
+	font-size: 2rem;
 	font-weight: 800;
 	letter-spacing: 2px;
 	padding: 0 16px;
@@ -102,5 +102,5 @@ main {
 }
 
 .special {
-	background: rgb(210, 197, 218);
+	font-weight: 600;
 }
