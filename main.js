@@ -19,3 +19,14 @@ heading.style.color = 'red';
 const paragraph = document.querySelector('.section__paragraph--js');
 paragraph.innerHTML = 'PS. Ten krótki, zielony tekst, to taki mały dodatek z JS do pustego elementu "p" ;)';
 paragraph.style.color = 'green';
+
+function calculate(argument) {
+  argument = argument * 2;
+  console.log(argument);
+  return argument;
+};
+
+calculate(2);
+
+const result = calculate(8);
+console.log(result);
