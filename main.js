@@ -30,3 +30,42 @@ calculate(2);
 
 const result = calculate(8);
 console.log(result);
+
+const numberOne = 31;
+const numberTwo = 32;
+
+const nameOne = 'Matt';
+let nameTwo = 'Bob';
+
+console.log(nameOne)
+console.log(nameTwo)
+
+nameTwo = 'Matt';
+
+console.log(nameOne)
+console.log(nameTwo)
+
+const humanOne = {
+  name: 'Matt',
+  age: 31
+}
+const humanTwo = {
+  name: 'Bob',
+  age: 32
+}
+
+console.log(humanOne)
+console.log(humanTwo)
+
+humanTwo.age = 33;
+
+console.log(humanTwo)
+
+humanTwo.age = humanOne.age;
+
+console.log(humanTwo)
+
+humanOne.age = 22;
+
+console.log(humanOne)
+console.log(humanTwo)
