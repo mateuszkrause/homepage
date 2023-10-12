@@ -47,11 +47,19 @@ console.log(nameTwo)
 
 const humanOne = {
   name: 'Matt',
-  age: 31
+  age: 31,
+  address: {
+    street: 'Blue',
+    city: 'Dublin'
+  }
 }
 const humanTwo = {
   name: 'Bob',
-  age: 32
+  age: 32,
+  address: {
+    street: humanOne.address.street,
+    city: 'London'
+  }
 }
 
 console.log(humanOne)
@@ -66,6 +74,11 @@ humanTwo.age = humanOne.age;
 console.log(humanTwo)
 
 humanOne.age = 22;
+
+console.log(humanOne)
+console.log(humanTwo)
+
+humanOne.address.street = 'Red';
 
 console.log(humanOne)
 console.log(humanTwo)
