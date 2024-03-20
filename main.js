@@ -82,3 +82,15 @@ humanOne.address.street = 'Red';
 
 console.log(humanOne)
 console.log(humanTwo)
+
+function greeting1(name, age) {
+  console.log(`Cześć ${name}, masz ${age} lat.`);
+}
+const greeting2 = (name, age) => {
+  const result = `Cześć ${name}, masz ${age} lat.`;
+  return result;
+}
+
+greeting1('Rudolf', 30);
+console.log(greeting2('Woody', 35));
+
