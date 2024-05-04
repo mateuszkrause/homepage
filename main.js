@@ -94,3 +94,9 @@ const greeting2 = (name, age) => {
 greeting1('Rudolf', 30);
 console.log(greeting2('Woody', 35));
 
+function test(color, food) {
+  console.log('Ten' + " " + food + " " + 'jest' + " " + color);
+  console.log(`Ten ${food} jest ${color}`);
+}
+
+test('niebieski', 'ser');
